@@ -207,6 +207,7 @@ INSERT INTO public.customers VALUES (110, '444-5555', 'Don');
 INSERT INTO public.customers VALUES (111, '444-55555', 'Kim');
 INSERT INTO public.customers VALUES (57, '0980980980', 'ben');
 INSERT INTO public.customers VALUES (63, '7890', 'Jim');
+INSERT INTO public.customers VALUES (127, '333-3333', 'leo');
 
 
 --
@@ -224,14 +225,14 @@ INSERT INTO public.services VALUES (5, 'trim');
 -- Name: appointments_appointment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 87, true);
+SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 105, true);
 
 
 --
 -- Name: customers_customer_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.customers_customer_id_seq', 111, true);
+SELECT pg_catalog.setval('public.customers_customer_id_seq', 127, true);
 
 
 --
